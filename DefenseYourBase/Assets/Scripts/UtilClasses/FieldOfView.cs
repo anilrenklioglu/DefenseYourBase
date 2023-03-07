@@ -38,7 +38,7 @@ namespace UtilClasses
 
             ClosestEnemy = GetClosestPoint();
 
-            Debug.Log("Archer's current enemy is: " + ClosestEnemy.name);
+            Debug.Log("Current enemy is: " + ClosestEnemy.name);
 
             return ClosestEnemy;
         }

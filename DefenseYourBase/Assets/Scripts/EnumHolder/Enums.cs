@@ -5,4 +5,11 @@
       Idle,
       Attack,
    }
+   
+   public enum EnemyState
+   {
+      Movement,
+      Attack,
+      Die,
+   }
 }
